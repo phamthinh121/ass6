@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.set('view engine', 'ejs')
-app.set('views', 'views');
+app.set('views', 'view');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(messageRouter);
