@@ -5,7 +5,7 @@ const mongoose=require('mongoose');
 const bodyParser = require('body-parser');
 
 const User = require('./models/user');
-const messageRouter = require('./routes/message');
+const messageRouter = require('./router/message');
 
 const app = express();
 const url = 'mongodb+srv://phamthinh:s1owEKIgKp2iCT0C@cluster0-3z4jv.mongodb.net/test?retryWrites=true&w=majority';
